@@ -1,0 +1,54 @@
+Windows PowerShell
+
+새로운 크로스 플랫폼 PowerShell 사용 https://aka.ms/pscore6
+
+PS C:\cdm0510\JavaLesson\src> cd ..
+PS C:\cdm0510\JavaLesson> git config --global user.name "cuidemin1987"
+PS C:\cdm0510\JavaLesson> git config --global user.email "cuidemin1987@naver.com"
+Reinitialized existing Git repository in C:/cdm0510/JavaLesson/.git/
+usage: git remote add [<options>] <name> <url>
+    -f, --[no-]fetch      fetch the remote branches
+                          or do not fetch any tag at all (--no-tags)
+                          branch(es) to track
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+PS C:\cdm0510\JavaLesson> git commit -n "first commit"
+error: pathspec 'first commit' did not match any file(s) known to git
+PS C:\cdm0510\JavaLesson> git commit -n "first commit"
+error: pathspec 'first commit' did not match any file(s) known to git
+PS C:\cdm0510\JavaLesson> git commit -n "first commit"
+error: pathspec 'first commit' did not match any file(s) known to git
+PS C:\cdm0510\JavaLesson> git commit -m "first commit"
+[master (root-commit) c40feaa] first commit
+ 2 files changed, 34 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .idea/.gitignore
+PS C:\cdm0510\JavaLesson> git branch
+* master
+PS C:\cdm0510\JavaLesson> git remote add origin https://github.com/cuidemin0726/Java.git
+PS C:\cdm0510\JavaLesson> git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 627 bytes | 627.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/cuidemin0726/Java.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\cdm0510\JavaLesson>
+
+
+상태 체크 > git status (현재 리파지토리 상태 알아보기)
+파일 업데이트 > git add . (staged 됐다고 판단함, 수정되었거나 언트랙된 파일들은 스테이징 시킨다)- 커밋 대기 상태
+커밋 > giit commit -m "알림문구"
+마직막 > git push origin master
+
+작업할 디렉토리 먼저 생성
+가져오기 > git clon "URL" (복사, 한번만 진행) > 그 이후 git pull/push 사용하면 됨
+
+

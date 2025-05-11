@@ -1,0 +1,26 @@
+intellij
+adoptium(java 기본 툴)
+
+객체 지향형 프로그랭밍 언어 - JAVA
+
+JDK - Java Developmnet kit
+JVM - Java Virtual Machine > .class 파일 생성 됨( 모두 JVM에서 실행됨)
+JRE - Java Runtime Environment
+ 
+선택 잘해야 함
+JAVA HOME:
+Add to Path: 
+JAVA Path:
+
+public static void main(String[] args) > 엔트리 포인트
+1개의 파일에 무조건 1개의 Class 가 존재함
+컴퓨터에서는 정수와 실수 밖에 없음
+Java에서는 
+
+git - 코드 버전 관리(로컬 리파지토리, 원격 리모트 리파지토리)
+github - 원격 리모트 리파지토리 저장 공간(Repository)
+git config --global user.name "cuidemin1987" > 한번만 진행
+git config --global user.email "cuidemin1987@naver.com" 
+git init
+git remote add https://github.com/cuidemin0726/Java.git
+
