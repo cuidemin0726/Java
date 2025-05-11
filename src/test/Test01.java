@@ -1,6 +1,6 @@
-package basic;
+package test;
 
-public class CdmTest {
+public class Test01 {
     public static void main(String[] args) {
         int num1 = 500;
         int num2 = 200;
