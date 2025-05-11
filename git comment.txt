@@ -15,12 +15,6 @@ usage: git remote add [<options>] <name> <url>
                           set up remote as a mirror to push to or fetch from
 
 warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
-PS C:\cdm0510\JavaLesson> git commit -n "first commit"
-error: pathspec 'first commit' did not match any file(s) known to git
-PS C:\cdm0510\JavaLesson> git commit -n "first commit"
-error: pathspec 'first commit' did not match any file(s) known to git
-PS C:\cdm0510\JavaLesson> git commit -n "first commit"
-error: pathspec 'first commit' did not match any file(s) known to git
 PS C:\cdm0510\JavaLesson> git commit -m "first commit"
 [master (root-commit) c40feaa] first commit
  2 files changed, 34 insertions(+)
