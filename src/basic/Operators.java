@@ -75,7 +75,7 @@ public class Operators {
 
         // 삼항 연산자 : 변수 = 조건식(비교식 혹은 논리식 등등) ? 조건식이 참일때 값: 조건식이 거짓일때 값:
         int age = 18;
-                "        String str = age > 18? \"성인\" : \"청소";
+                String str = age > 18 ? "성인" : "청소년";
         System.out.println(str);
 
 
