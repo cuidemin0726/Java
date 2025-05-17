@@ -15,6 +15,17 @@ public class ControlStmt {
          *  }else {
          *  조건식 또는 논리식 참인 경우 실행 되는 명령문들....
          * }
+         * 3)
+         * if(조건식 또는 논리식1){
+         *  위 조건식이 참인 경우 실행 되는 명령문들
+         * } else if(조건식 또는 논리식2){
+         *
+         * } else if(조건식 또는 논리식3){
+         *
+         * }...
+         *
+         *
+         *
          */
 
         Scanner sc = new Scanner(System.in);
