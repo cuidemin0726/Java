@@ -72,12 +72,12 @@ public class WhileStmt {
         // ...
         // 3X9 = 27
 
-//        int n = 1;
-//        while(n < 10){
-//            System.out.printf("3 X %d = %d\n", n, 3*n);
-//            n++;
-//        }
-//        System.out.println("while 문 종료됨");
+        int n = 1;
+        while(n < 10){
+            System.out.printf("3 X %d = %d\n", n, 3*n);
+            n++;
+        }
+        System.out.println("while 문 종료됨");
 
 
         Scanner sc2 = new Scanner(System.in);

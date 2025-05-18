@@ -11,11 +11,11 @@ public class NumGame {
 
         Scanner sc = new Scanner(System.in);
 
-//        int num = 0;
-        while (true) {
+        int num = 0;
+        while (num != n) {
             System.out.printf("숫자를 입력하세요 >>> ");
-            int num = sc.nextInt();
-            if ( num == n) break;
+            num = sc.nextInt();
+//          if ( num == n) break;
 
             if(num > n)
                 System.out.println("UP");
