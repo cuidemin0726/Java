@@ -1,8 +1,6 @@
 package basic;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Random;
 
 public class ArrayExt {
@@ -16,8 +14,10 @@ public class ArrayExt {
 
 //        int a = 10;
 //        int b = 5;
-////        tmp = a;
-//        a= b; //게임 끝
+
+//        값 바꾸기
+//        tmp = a;
+//        a= b;
 //        b = tmp;
 
 
@@ -70,16 +70,37 @@ public class ArrayExt {
             System.out.printf("val : %d는 배열에 존재하지 않습니다.\n", val);
         }
 
-
+//          // 순차 정렬
 //        for (int i = 0; i < arr.length - 1; i++) {
 //            for (int j = i + 1; j < arr.length; j++) {
 //                if (arr[i] > arr[j]) {
-//                    int tmp = arr[i];
-//                    arr[i] = arr[j];
-//                    arr[j] = tmp;
+//                    int tmp = arr[i] ;
+//                    arr[i] = arr[j] ;
+//                    arr[j] = tmp ;
 //                }
 //            }
 //        }
 //        System.out.println(Arrays.toString(arr));
+    }
+
+    public static class JaggedArray {
+        public static void main(String[] args) {
+
+            //
+            Random rand = new Random();
+
+            //Jagged Array : 불규칙적인 가변 길이 배열
+            int [][] arr = new int[3][]; // 1차원 배열의 개수가 만들어 지지 않음
+            for(int i=0; i< arr.length; i++){
+                int len = rand.nextInt(10)+1;
+                arr[i] = new int[len];
+                for(int j=0; j <arr[i].length; j++){
+                    arr[i][j]= rand.nextInt(10)+1;
+                }
+                System.out.println(Arrays.toString(arr[i]));
+            }
+
+
+        }
     }
 }
