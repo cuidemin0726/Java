@@ -40,7 +40,7 @@ public class Matrix {
             System.out.println(Arrays.toString(lotto[i]));
         }
         // 각각의 행을 정열후 출력
-        for(int i = 0; i <lotto.length;i++){
+        for(int i = 0; i < lotto.length;i++){
             Arrays.sort(lotto[i]);
             System.out.println(Arrays.toString(lotto[i]));
 
