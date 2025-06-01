@@ -79,4 +79,9 @@ public class Person {
         return name;
     }
 
+    @Override
+    public String toString() {
+//        String str = String.format("이름: %s, 나이: %d, 성별 :%s", name, age, gender);
+        return String.format("이름: %s, 나이: %d, 성별 :%s", name, age, gender);
+    }
 }
