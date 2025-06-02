@@ -14,7 +14,7 @@ public class MyUnitTest {
         System.out.println("m1은 Object의 인스턴스인가: " + (m1 instanceof Object) );
         System.out.println("t1은 String의 인스턴스인가: " + (t1 instanceof Marine) );
 
-
+        m1.attack(t1);
         m1.attack(t1);
         m1.info();
         t1.info();

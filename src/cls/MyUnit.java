@@ -41,7 +41,7 @@ public class MyUnit {
             hp = 0;
         }
     }
-    public void attack(MyUnit target){
+    public void attack(MyUnit target) {
         target.damage(power);
     }
 

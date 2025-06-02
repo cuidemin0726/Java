@@ -42,7 +42,7 @@ public class Person {
 
     // Person class의 기능 요소
     // void: 반환중에 void는 반환값이 없음을 의미함.
-   public void  introduce(){
+    public void  introduce(){
         System.out.printf("안녕하세요, 저는 %s 이고, 나이는 %d살이고, %s입니다!\n", name, age, gender);
     }
 
