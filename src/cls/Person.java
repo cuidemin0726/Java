@@ -29,7 +29,7 @@ public class Person {
 
     public Person(String name, int age){
         this.name = name; // this: 자기 자신을 카리키는 키워드 (참조 변후)
-        gender = "모름";
+        this.gender = "모름";
 
         if(age > 0)
         this.age = age;
@@ -61,7 +61,7 @@ public class Person {
     public void  decreaseAge(){
         --age;
     }
-    // 설별 설정: 성별은 문자자열 "남자" 또는 "여자" 로만 입력할수 있다는 규칙을 정함.
+    // 성별 설정: 성별은 문자자열 "남자" 또는 "여자" 로만 입력할수 있다는 규칙을 정함.
     public void setGender(String g){
        if(g.equals("남자") || g.equals("여자"))
            gender = g;
