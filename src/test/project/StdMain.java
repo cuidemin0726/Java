@@ -1,4 +1,4 @@
-package tseto.project;
+package test.project;
 
 public class StdMain {
     public static void main(String[] args) {

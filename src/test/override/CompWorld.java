@@ -1,4 +1,4 @@
-package override;
+package test.override;
 
 public class CompWorld {
     public static void main(String[] args) {

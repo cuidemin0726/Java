@@ -1,4 +1,4 @@
-package tseto.project;
+package test.project;
 
 
 import java.math.BigDecimal;

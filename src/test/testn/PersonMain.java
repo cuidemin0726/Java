@@ -1,4 +1,4 @@
-package testn;
+package test.testn;
 
 
 public class PersonMain {

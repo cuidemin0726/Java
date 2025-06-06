@@ -1,4 +1,4 @@
-package testp;
+package test.testp;
 
 public class Novel extends Book2{
 

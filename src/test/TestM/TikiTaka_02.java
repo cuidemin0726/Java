@@ -1,4 +1,4 @@
-package TestM;
+package test.TestM;
 
 public class TikiTaka_02 {
     public static  void main(String[] args){

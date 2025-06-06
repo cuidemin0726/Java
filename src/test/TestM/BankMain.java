@@ -1,4 +1,4 @@
-package TestM;
+package test.TestM;
 
 public class BankMain {
     public static void main(String[] args) {

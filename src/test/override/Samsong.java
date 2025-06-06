@@ -1,4 +1,4 @@
-package override;
+package test.override;
 
 public class Samsong extends Computer{
 

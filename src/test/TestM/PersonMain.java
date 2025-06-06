@@ -1,4 +1,4 @@
-package TestM;
+package test.TestM;
 
 public class PersonMain {
     public static void main(String[] args) {

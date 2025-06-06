@@ -1,6 +1,4 @@
-package testn;
-
-import java.security.PrivateKey;
+package test.testn;
 
 public class Student {
 

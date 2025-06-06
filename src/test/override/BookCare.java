@@ -1,7 +1,7 @@
-package override;
+package test.override;
 
 
-import testp.ComicBook;
+import test.testp.ComicBook;
 
 public class BookCare {
     public static void main(String[] args) {

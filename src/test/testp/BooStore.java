@@ -1,4 +1,4 @@
-package testp;
+package test.testp;
 
 public class BooStore {
     public static void main(String[] args) {
