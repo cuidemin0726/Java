@@ -10,8 +10,10 @@ public class CampareInstance {
 
         if(com instanceof SamsongCom){
             System.out.println("삼송 컴퓨터!");
+
         }else if (com instanceof LZCom){
             System.out.println("LZ 컴퓨터!");
+
         }else {
             System.out.println("넌 누구니?");
         }

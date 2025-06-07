@@ -46,5 +46,13 @@ public class BankAccount {
         return this.money;
     }
 
-    //
+    @Override
+    public boolean equals(Object obj) {
+        if( !(obj instanceof BankAccount))
+            return false;
+
+        BankAccount target = (BankAccount) obj;
+
+        return money == target.money;
+    }
 }
