@@ -20,4 +20,20 @@ public class Student extends Person{
         super.introduce(); // 부모 클래스(Person)에서 정의된 introduce() 메소드를 호출
         System.out.printf("학교는 %s에 다니고 있습니다\n", school);
     }
+//   Object Class의 equals 메소드를 생성함
+    @Override
+    public boolean equals(Object obj) {
+        // obj 매개변수는 Student 클래스로부터 생성된 인스턴스인지 먼저 검사 필요
+        if( !(obj instanceof Student))
+            return false;
+
+        Student target = (Student) obj;
+
+        return getName().equals(target.getName()) && 
+                getAge()==target.getAge() &&
+                getGender().equals(target.getGender()) &&
+                school.equals(target.school) &&
+                grade == target.grade;
+
+    }
 }

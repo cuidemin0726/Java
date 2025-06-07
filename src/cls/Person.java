@@ -69,6 +69,10 @@ public class Person {
            System.out.println("성별은 남자 또는 여라 로만 입력할수 있습니다.");
 
     }
+
+    public  String getGender(){
+        return gender;
+    }
     // name 필드의 setter 와 getter를 만드세요
     // setName: 이름을 설정하는 메소드를 만드세요
     public void setName(String n){

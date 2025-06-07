@@ -31,6 +31,10 @@ public class MyUnit {
         this.name = name;
     }
 
+    public String toString(){
+        return String.format("name: %s, hp: %d, power: %d", name, hp, power);
+    }
+
     // 반환값이 없는 메소드 damage를 만드세요
     // 매개변후로 power(정수형)가 주어지고
     // 맴버변수 hp를 매개변후 power만큼 차감합니다
