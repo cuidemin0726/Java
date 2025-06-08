@@ -5,7 +5,7 @@ public class Student extends Person {
     private int grade;
 
     // 생성자 : 이름, 나이, 성별, 학교
-    //grade 는 무조건 1로 설정
+    // grade 는 무조건 1로 설정
     public Student(String name, int age, String gender, String school) {
         super(name, age);// Person에 생성자를 이용
         super.setGender(gender); // Person에 구현해 놓은 setGender 메소드를 이용하여 설정
@@ -40,10 +40,10 @@ public class Student extends Person {
 }
 
 // 숙제 1
-// 젝목(str), 날짜(str), 내용(str) 클래스 작성 숙제
+// 제목(str), 날짜(str), 내용(str) 클래스 작성 숙제
 
 // 숙제2
-// 직업(str), 스킬(str), HP(int), MP(int) 클랙스 작성 숙제
+// 이름(str), 직업(str), 스킬(str), HP(int), MP(int) 클랙스 작성 숙제
 
 // 숙제3
 // 직원(Employee) 클래스
