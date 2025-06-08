@@ -17,10 +17,10 @@ public class BankTest {
 //        BankAccount m2 = new BankAccount();
 //        m2.view();
 
-        int w1 = 10;
-        int w2 = 10;
+        String w1 = "하하";
+        String w2 = "하하";
 
-        if(w1 == w2){
+        if(w1.equals(w2)){
             System.out.println("w1 과 w2는 같다");
         }else
             System.out.println("w1 과 w2는 다르다");
