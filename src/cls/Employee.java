@@ -46,7 +46,7 @@ public class Employee extends Person {
     // introduce 메소드를 사용하여 순차적으로 출력 되도록 함
     @Override
     public void introduce(){
-        System.out.printf("이름: %s / 회사: %s / 부서: %s / 직급: %s", getName(), company, department, position);
+        System.out.printf("이름: %s / 회사: %s / 부서: %s / 직급: %s\n", getName(), company, department, position);
     }
 
     @Override

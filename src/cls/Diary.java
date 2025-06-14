@@ -23,7 +23,7 @@ public class Diary {
     }
 
     public String getTitle(){
-        return getTitle();
+        return title;
     }
 
     public void setDate(String date){
