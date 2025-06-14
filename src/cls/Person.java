@@ -26,7 +26,9 @@ public class Person {
         gender = "모름";
 
     }
-
+    public Person(String name){
+        this.name = name;
+    }
     public Person(String name, int age){
         this.name = name; // this: 자기 자신을 카리키는 키워드 (참조 변후)
         this.gender = "모름";

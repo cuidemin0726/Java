@@ -70,10 +70,11 @@ public class Deonpa {
             return false;
 
         Deonpa is = (Deonpa) den;
-        return name.equals(is.getName()) &&
-                character.equals(is.getCharacter()) &&
-                skill.equals(is.getSkill()) &&
-                hp == is.getHp() &&
-                hp == is.getMp();
+
+        return  name.equals(is.name) &&
+                character.equals(is.character) &&
+                skill.equals(is.skill) &&
+                hp == is.hp &&
+                mp == is.mp;
     }
 }

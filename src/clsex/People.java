@@ -13,6 +13,8 @@ public abstract class People {
     public abstract void say();
 //    public abstract void cry();
 
+//    public abstract void test();
+    
     public void go(){
         System.out.println("사람이 갑니다!!!");
     }
