@@ -1,19 +1,19 @@
 package thread;
 
-import java.util.Timer;
+public class MyRunThread implements Runnable{
 
-public class MyThread extends Thread{
-    public MyThread(String name){
-        super(name);
+    public String name;
+    public MyRunThread(String name){
+        this.name = name;
     }
 
     @Override
     public void run() {
         for(int i = 0; i < 20; i++){
-            System.out.printf("[%s] : %d\n", this.getName(), i);
+            System.out.printf("[%s] : %d\n", this.name, i);
 
             try {
-                Thread.sleep(1); // 1/1000 초 쉬어라~!
+                Thread.sleep(1); // 1초 쉬어라~!
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
