@@ -43,6 +43,6 @@ PS C:\cdm0510\JavaLesson>
 마직막 > git push origin master
 
 작업할 디렉토리 먼저 생성
-가져오기 > git clon "URL" (복사, 한번만 진행) > 그 이후 git pull/push 사용하면 됨
+가져오기 > git clone "URL" (복사, 한번만 진행) > 그 이후 git pull/push 사용하면 됨
 
 
